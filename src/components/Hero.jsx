@@ -124,14 +124,14 @@ function Hero() {
       className="hero overflow-hidden w-full h-screen bg-black"
     >
       <nav className="navbar absolute z-[9] ">
-        <div className="px-10 py-10">
-          <div className="logo flex gap-7 items-start">
-            <div className="lines flex flex-col gap-1.5">
-              <div className="line w-15 h-1.5 bg-white"></div>
-              <div className="line w-8 h-1.5 bg-white"></div>
-              <div className="line w-5 h-1.5 bg-white"></div>
+        <div className="px-4 py-4 md:px-10 md:py-10">
+          <div className="logo text-3xl sm:text-4xl flex gap-[0.8em] items-start">
+            <div className="lines flex flex-col gap-[0.15em]">
+              <div className="line w-[2em] h-[0.175em] bg-white"></div>
+              <div className="line w-[1em] h-[0.175em] bg-white"></div>
+              <div className="line w-[0.5em] h-[0.175em] bg-white"></div>
             </div>
-            <h3 className="text-4xl leading-[0.5]">Rockstar</h3>
+            <h3 className="text-[1em] leading-[0.5]">Rockstar</h3>
           </div>
         </div>
       </nav>
@@ -151,10 +151,10 @@ function Hero() {
 
         <h1
           ref={heading}
-          className="absolute top-0 left-1/2 -translate-x-1/2 text-[12rem] leading-none"
+          className="absolute top-[40%] lg:top-0 -translate-y-1/2 lg:translate-y-0 left-1/2 -translate-x-1/2 text-8xl md:text-[10rem] lg:text-[12rem] leading-none"
         >
           <div className="">Grand</div>
-          <div className="ml-40">Theft</div>
+          <div className="ml-10 md:ml-30 lg:ml-40">Theft</div>
           <div className="">Auto</div>
         </h1>
         <img
@@ -167,7 +167,7 @@ function Hero() {
       <div className="btmbar z-[9] absolute bottom-0 left-0 w-full p-10 bg-gradient-to-t from-black to-transparent">
         <button
           type="button"
-          className="flex items-center gap-2 text-xl font-sans animate-bounce"
+          className="hidden md:flex items-center gap-2 text-xl font-sans animate-bounce"
         >
           <span className="">
             <i className="ri-arrow-down-long-line ri-lg"></i>
@@ -177,7 +177,7 @@ function Hero() {
         <img
           src="/ps5.png"
           alt=""
-          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-[10vh]"
+          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 sm:h-[10vh]"
         />
       </div>
     </section>

@@ -29,7 +29,11 @@ function Loader({ onLoading }) {
 
   return (
     <div className="svg fixed top-0 left-0 z-[100] w-full h-screen overflow-hidden bg-black">
-      <svg viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+      <svg
+        viewBox="0 0 800 600"
+        preserveAspectRatio="xMidYMid slice"
+        className="w-full h-full"
+      >
         <defs>
           <mask id="viMask">
             <rect width="100%" height="100%" fill="black" />

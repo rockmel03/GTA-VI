@@ -10,10 +10,10 @@ function App() {
       {showContent && (
         <main className="main w-full overflow-hidden bg-black text-white">
           <Hero />
-          <section className="w-full h-screen">
-            <div className="w-full h-full flex">
+          <section className="w-full md:h-screen ">
+            <div className="w-full h-full flex flex-col md:flex-row">
               <div className="flex-1 grid place-items-center">
-                <div className="w-8/10 ">
+                <div className="md:w-8/10 ">
                   <img
                     src="imag.png"
                     alt=""
@@ -22,7 +22,7 @@ function App() {
                 </div>
               </div>
               <div className="flex-1 grid place-items-center">
-                <div className="w-8/10 flex flex-col gap-5">
+                <div className="p-5 md:w-8/10 flex flex-col gap-5">
                   <h2 className="text-6xl">
                     <div>Still Running</div>
                     <div>Not Hunting</div>
