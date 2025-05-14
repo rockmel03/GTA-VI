@@ -20,11 +20,11 @@ To run the project locally, follow these steps:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/GTA-VI-Website.git
+   git clone https://github.com/rockmel03/GTA-VI.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd GTA-VI-Website
+   cd GTA-VI
    ```
 3. Install dependencies:
    ```bash
