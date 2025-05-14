@@ -1,9 +1,14 @@
-import React from "react";
+import { useState } from "react";
+import Loader from "./components/Loader";
 
 function App() {
+  const [showContent, setShowContent] = useState(false);
   return (
     <>
-      <h1 className="text-xl font-bold">GTA-VI</h1>
+      <Loader onLoading={() => setShowContent(true)} />
+      {showContent && (
+        <main className="main w-full overflow-hidden bg-black text-white"></main>
+      )}
     </>
   );
 }
